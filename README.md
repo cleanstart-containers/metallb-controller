@@ -54,14 +54,14 @@ Essential links and resources for further information
 - **MetalLB Official Documentation**: https://metallb.universe.tf/
 
 **
-### Resources & Documentation  
-Essential links and resources for further information:
+### 
+### Resources
 
-- CleanStart Website: https://www.cleanstart.com
+- Official Documentation: https://metallb.universe.tf/
 - View Provenance, Specifications, SBOM, Signature at: https://images.cleanstart.com/images/metallb-controller
+- Docker Hub: https://hub.docker.com/r/cleanstart/metallb-controller
 - CleanStart All Images: https://images.cleanstart.com
-- CleanStart Community Images: https://hub.docker.com/u/cleanstart
-- Other location for Community image: https://hub.docker.com/r/cleanstart/metallb-controller
+- CleanStart All Community Images: https://hub.docker.com/u/cleanstart
 
 ---
 
