@@ -1,8 +1,8 @@
-**Container Documentation for Metallb-Controller**
+- *Container Documentation for Metallb-Controller**
 
 MetalLB controller container provides Layer 2 and BGP-based load balancing functionality for bare metal Kubernetes clusters. It enables LoadBalancer service types in environments without cloud provider integration, offering enterprise-grade network load balancing capabilities with high availability and automatic failover features.
 
-**Key Features**
+- *Key Features**
 Core capabilities and strengths of this container
 
 - Layer 2 and BGP mode support for network load balancing
@@ -10,7 +10,7 @@ Core capabilities and strengths of this container
 - High availability configuration with leader election
 - Native Kubernetes integration for LoadBalancer services
 
-**Common Use Cases**
+- *Common Use Cases**
 Typical scenarios where this container excels
 
 - Bare metal Kubernetes cluster load balancing
@@ -18,7 +18,7 @@ Typical scenarios where this container excels
 - Edge computing network management
 - Multi-cluster service load balancing
 
-**Pull Latest Image**
+- *Pull Latest Image**
 Download the container image from the registry
 
 ```bash
@@ -29,14 +29,14 @@ docker pull Cleanstart/metallb-controller:latest
 docker pull Cleanstart/metallb-controller:latest-dev
 ```
 
-**Basic Run**
+- *Basic Run**
 Run the container with basic configuration
 
 ```bash
 docker run -it --name metallb-controller-test Cleanstart/metallb-controller:latest-dev
 ```
 
-**Production Deployment**
+- *Production Deployment**
 Deploy with production security settings
 
 ```bash
@@ -47,23 +47,23 @@ docker run -d --name metallb-controller-prod \
   Cleanstart/metallb-controller:latest
 ```
 
-**Documentation Resources**
+- *Documentation Resources**
 Essential links and resources for further information
 
 - **Container Registry**: https://www.cleanstart.com/
 - **MetalLB Official Documentation**: https://metallb.universe.tf/
 
-**
-### 
-### Resources
+- *
 
-- Official Documentation: https://metallb.universe.tf/
-- View Provenance, Specifications, SBOM, Signature at: https://images.cleanstart.com/images/metallb-controller
-- Docker Hub: https://hub.docker.com/r/cleanstart/metallb-controller
-- CleanStart All Images: https://images.cleanstart.com
-- CleanStart All Community Images: https://hub.docker.com/u/cleanstart
+###
 
----
+## Resources
+
+- **Official Documentation:** https://metallb.universe.tf/
+- **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/metallb-controller
+- **Docker Hub:** https://hub.docker.com/r/cleanstart/metallb-controller
+- **CleanStart All Images:** https://images.cleanstart.com
+- **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
 
 ### Vulnerability Disclaimer
 
