@@ -24,17 +24,17 @@ Typical scenarios where this container excels
 
 Download the container image from the registry
 ```bash
-docker pull Cleanstart/metallb-controller:latest
+docker pull ghcr.io/cleanstart-containers/metallb-controller:latest
 ```
 ```bash
-docker pull Cleanstart/metallb-controller:latest-dev
+docker pull ghcr.io/cleanstart-containers/metallb-controller:latest-dev
 ```
 
 ## Basic Run
 
 Run the container with basic configuration
 ```bash
-docker run -it --name metallb-controller-test Cleanstart/metallb-controller:latest-dev
+docker run -it --name metallb-controller-test ghcr.io/cleanstart-containers/metallb-controller:latest-dev
 ```
 
 ## Production Deployment
@@ -45,7 +45,7 @@ docker run -d --name metallb-controller-prod \
   --read-only \
   --security-opt=no-new-privileges \
   --user 1000:1000 \
-  Cleanstart/metallb-controller:latest
+  ghcr.io/cleanstart-containers/metallb-controller:latest
 ```
 ## Resources
 
