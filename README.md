@@ -52,7 +52,7 @@ docker run -d --name metallb-controller-prod \
 - **Official Documentation:** https://metallb.universe.tf/
 - **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/metallb-controller
 - **Docker Hub:** https://hub.docker.com/r/cleanstart/metallb-controller
-- **CleanStart All Images:** https://images.cleanstart.com
+- **CleanStart All Images:** https://images.cleanstart.com/images/metallb-controller/details
 - **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
 
 ### Vulnerability Disclaimer
